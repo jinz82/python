@@ -7,8 +7,8 @@ from ds18b20   import ds18b20_read
 import pubnub
 
 pnconf = PNConfiguration()
-pnconf.publish_key = 'pub-c-43d6b328-4b8a-49be-b643-1968b96a1b93'
-pnconf.subscribe_key = 'sub-c-a1ff334e-f7d7-11e8-86f0-9a6b1c0db2e9'
+pnconf.publish_key = ''
+pnconf.subscribe_key = ''
 pubnub = PubNub(pnconf)
 
 channel  ='jinz_station'
